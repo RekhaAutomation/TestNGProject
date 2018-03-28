@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testng">
+
+	<test name="FirstTestNGProject">
+		<groups>
+			<run>
+				<include name="A"></include>
+				<include name="B"></include>
+
+			</run>
+		</groups>
+
+
+		<classes>
+			<class name="firsttestngpackage.TestNGGrouping" />
+			<class name="firsttestngpackage.TestNGAttributes" />
+			<class name="firsttestngpackage.FirstTestNGFile">
+				<methods>
+					<include name="verifytitle" />
+					<include name="verifyHomepageTitle"></include>
+					<include name="xitbrowser"></include>
+				</methods>
+
+
+			</class>
+		</classes>
+
+	</test>
+</suite>
+

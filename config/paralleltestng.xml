@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestingParallel" parallel="tests">
+	<test name="Amazon linktest">
+		<classes>
+			<class name="firsttestngpackage.AmazonTestNGTest" />
+		</classes>
+	</test>
+	<test name="Ebay url">
+		<classes>
+			<class name="firsttestngpackage.EbayTest" />
+		</classes>
+	</test>
+
+
+</suite>

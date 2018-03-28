@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [facebooklogin]" guice-stage="DEVELOPMENT">
+  <test name="loginverify(failed)">
+    <parameter name="pass" value="password"/>
+    <parameter name="url" value="https://www.facebook.com"/>
+    <parameter name="email" value="rekha.pasunoori"/>
+    <classes>
+      <class name="firsttestngpackage.ParameterXml">
+        <methods>
+          <include name="longintoFacebook" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- firsttestngpackage.ParameterXml -->
+    </classes>
+  </test> <!-- loginverify(failed) -->
+</suite> <!-- Failed suite [facebooklogin] -->

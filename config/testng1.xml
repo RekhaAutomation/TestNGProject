@@ -1,0 +1,9 @@
+
+<suite name="launching browser">
+<test name="first testng">
+<classes>
+<class name="firsttestngpackage.Facebooklogin1">
+</class>
+<class name="firsttestngpackage.EbayTest"></class>
+</classes></test>>
+</suite>

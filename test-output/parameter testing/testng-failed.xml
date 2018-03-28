@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [parameter testing]" guice-stage="DEVELOPMENT">
+  <test name="yahoo login(failed)">
+    <parameter name="password" value="rekhanag111"/>
+    <parameter name="emailid" value="naganna2001@yahoo.com"/>
+    <classes>
+      <class name="firsttestngpackage.YahoologinTest">
+        <methods>
+          <include name="yahoo1" invocation-numbers="0"/>
+          <include name="quitbrowser"/>
+          <include name="invokebrowser"/>
+        </methods>
+      </class> <!-- firsttestngpackage.YahoologinTest -->
+    </classes>
+  </test> <!-- yahoo login(failed) -->
+</suite> <!-- Failed suite [parameter testing] -->

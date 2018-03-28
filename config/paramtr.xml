@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="facebooklogin">
+
+	<test name="loginverify">
+	<parameter name="url" value="https://www.facebook.com"></parameter>
+	<parameter name="email" value="rekha.pasunoori"></parameter>
+	<parameter name="pass" value="password"></parameter>
+		<classes>
+			<class name="firsttestngpackage.ParameterXml">
+				<methods>
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+</suite>

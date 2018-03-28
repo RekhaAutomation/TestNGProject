@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Grouping" >
+<test name="groupingtest">
+<groups>
+<run>
+<include name="LoginGroup"/>
+<include name="SearchGroup"/></run>
+</groups>
+<classes>
+<class name="firsttestngpackage.TestngGroupingAz"/>
+<class name="firsttestngpackage.TestngGroupingEbay"/>
+</classes></test>
+</suite>

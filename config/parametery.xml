@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parameter testing">
+	<test name="yahoo login">
+		<parameter name="emailid" value="naganna2001@yahoo.com" />
+		<parameter name="password" value="rekhanag111" />
+		<classes>
+			<class name="firsttestngpackage.YahoologinTest">
+			</class>
+
+		</classes>
+	</test>
+
+</suite>
