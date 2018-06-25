@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="firsttestngpackage.YahoologinTest">
+      <class name="com.listenerconcept.ScreenShotDemo">
         <methods>
-          <include name="yahoo1"/>
-          <include name="quitbrowser"/>
-          <include name="invokebrowser"/>
+          <include name="takeScreenshot"/>
+          <include name="takeScreenshot2"/>
+          <include name="setup"/>
+          <include name="takeScreenshot3"/>
+          <include name="takeScreenshot1"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- firsttestngpackage.YahoologinTest -->
+      </class> <!-- com.listenerconcept.ScreenShotDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

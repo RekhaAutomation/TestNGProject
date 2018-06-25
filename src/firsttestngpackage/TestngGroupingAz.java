@@ -20,7 +20,7 @@ public class TestngGroupingAz {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
       driver.get("http://www.amazon.com");
-     // driver.findElement(By.xpath("//*[@id=\'nav-link-accountList\']/span[1]"));
+
        
   }
   @Test(groups= {"SearchGroup"})

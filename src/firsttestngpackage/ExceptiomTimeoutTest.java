@@ -3,7 +3,7 @@ package firsttestngpackage;
 import org.testng.annotations.Test;
 
 public class ExceptiomTimeoutTest {
- /* @Test(invocationTimeOut=2,expectedExceptions=NumberFormatException.class)
+  @Test(invocationCount=5,invocationTimeOut=1,expectedExceptions=NumberFormatException.class)
   public void infiniteloop() {
 	 int i=1;
 	  while(i==1) {
@@ -11,7 +11,7 @@ public class ExceptiomTimeoutTest {
 	  
 	 System.out.println(i);
 	  }	  
- }*/
+ }
 	
 	
 	

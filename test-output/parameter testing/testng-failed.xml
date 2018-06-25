@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [parameter testing]" guice-stage="DEVELOPMENT">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [parameter testing]">
   <test name="yahoo login(failed)">
     <parameter name="password" value="rekhanag111"/>
     <parameter name="emailid" value="naganna2001@yahoo.com"/>

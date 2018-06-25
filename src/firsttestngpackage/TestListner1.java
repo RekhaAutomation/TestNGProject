@@ -23,13 +23,12 @@ public class TestListner1 {
 	}
 
 	@Test
-	public void logintoYahoo() {
+	public void logintoGoogle() {
 
-		driver.get("https://login.yahoo.com");
-		driver.findElement(By.id("login-username")).sendKeys("naganna2001@yahoo.com");
-		driver.findElement(By.id("login-signin")).click();
-		driver.findElement(By.id("login-passwd")).sendKeys("rekhanag@1234");
-		driver.findElement(By.id("login-signin")).click();
+		driver.get("https://www.google.com");
+		String title=driver.getTitle();
+		Assert.assertEquals(title, "Google123");
+		
 	}
 
 	@Test

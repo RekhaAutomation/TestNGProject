@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [Listners]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="firsttestngpackage.ListnerClass"/>
-  </listeners>
-  <test name="Listener Testing(failed)">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="firsttestngpackage.TestListner1">
+      <class name="com.listenerconcept.ScreenShotDemo">
         <methods>
-          <include name="logintoYahoo"/>
-          <include name="testtofail"/>
+          <include name="takeScreenshot"/>
+          <include name="takeScreenshot2"/>
+          <include name="setup"/>
+          <include name="takeScreenshot3"/>
+          <include name="takeScreenshot1"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- firsttestngpackage.TestListner1 -->
+      </class> <!-- com.listenerconcept.ScreenShotDemo -->
     </classes>
-  </test> <!-- Listener Testing(failed) -->
-</suite> <!-- Failed suite [Listners] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
